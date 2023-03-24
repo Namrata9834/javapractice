@@ -1,0 +1,8 @@
+super keyword used to refer immediate parent class instance variable
+
+ Usage :
+      1. used to refer immediate parent class instance variable
+      2. used to invoke parent class method
+      3. used to invoke parent class constructor
+      	Java compiler invoke super class constructor implicitly
+      	if we are not call constructor explicitly

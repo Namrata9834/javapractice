@@ -1,0 +1,16 @@
+
+
+ used to refer current class instance variable
+ and also used to eliminate the confusion between current class instance variable and method parameters
+
+ usage :
+ 1. used to refer current class instance variable.
+ 2.used to invoke current class method
+ 3. used to invoke current class constructor
+ 4. used to pass an argument in the method
+ 5. used to pass an argument in constructor call
+ 6.used to return current class instance
+
+ note :
+ this() must be first statement in constructor
+
