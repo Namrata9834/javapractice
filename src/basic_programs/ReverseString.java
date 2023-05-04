@@ -4,11 +4,11 @@ import static jdk.nashorn.internal.objects.NativeString.charAt;
 
 public class ReverseString {
     public static void main(String[] args) {
-        String str = "atarmaN";
-        String rev=" ";
-        for (int i=0;i<str.length();i++){
-            rev= str.charAt(i)+rev;
-        }
+       String str="Sangeeta";
+       String rev=" ";
+       for (int i=0;i<str.length();i++){
+           rev=str.charAt(i)+rev;
+       }
         System.out.println(rev);
     }
 }

@@ -2,23 +2,23 @@ package arrays;
 
 public class SecondSmallestElement {
     public static void main(String[] args) {
-        int a[]={40,8,90,34,66,84};
+        int array[]={19,52,190,67,89,98,15};
         int temp;
-         for (int i=0;i<a.length;i++){
-             for (int j=i+1;j<a.length;j++){
-                 if(a[i]>a[j]){
-                     temp=a[i];
-                     a[i]=a[j];
-                     a[j]=temp;
-                 }
-             }
-         }
-        System.out.print("sorted elements of array : ");
-         for (int i=0;i<a.length;i++){
-             System.out.print(a[i]+" ");
-         }
-        System.out.println("");
-        System.out.print("second smallest element is : "+a[1]);
+          for (int i=0;i< array.length;i++){
+              for (int j=i+1;j< array.length;j++){
+                  if(array[i]>array[j]){
+                      temp=array[i];
+                      array[i]=array[j];
+                      array[j]=temp;
+                  }
+              }
+          }
+        System.out.println("sorted elements of array");
+          for (int i=0;i< array.length;i++){
+              System.out.print(array[i]+" ");
+          }
+        System.out.println();
+        System.out.println("second smallest element of array "+array[1]);
 
 
         }

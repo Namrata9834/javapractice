@@ -4,12 +4,17 @@ import java.util.Scanner;
 
 public class ReverseString2 {
     public static void main(String[] args) {
-        char str[] = new char[9];
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the String");
+//       char ch[]={'N','a','m','r','a','t','a'};
+//       for (int i=ch.length-1;i>=0;i--){
+//           System.out.print(ch[i]+" ");
+    //}
 
-        for (int i=0;i<str.length;i++){
-
+        String str="Tati";
+        String rev=" ";
+        for (int i=0;i<str.length();i++){
+            rev=str.charAt(i)+rev;
         }
-    }
+        System.out.println(rev);
+       }
+
 }

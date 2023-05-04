@@ -6,20 +6,25 @@ import java.util.Scanner;
 
 public class EvenOdd {
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        System.out.println("Enter the elements of array");
-        int a[]= new int[5];
-        for (int i=0;i< a.length;i++){
-            a[i]= sc.nextInt();
+      Scanner sc = new Scanner(System.in);
+        System.out.println("enter elements of arrays");
+        int array[]=new int[8];
+        for (int i=0;i< array.length;i++){
+            array[i]= sc.nextInt();
         }
-        for (int i=0;i<a.length;i++){
-            if(a[i]%2==0){
-                System.out.println("even no "+a[i]);
-            } else {
-                System.out.println("Odd no "+a[i]);
+        System.out.println("even elements");
+      for (int i=0;i<array.length;i++){
+          if(array[i]%2==0){
+              System.out.print(array[i]+" ");
+          }
+      }
+        System.out.println();
+        System.out.println("odd elements");
+        for (int i=0;i<array.length;i++){
+            if(array[i]%2!=0){
+                System.out.print(array[i]+" ");
             }
         }
-
 
 
 

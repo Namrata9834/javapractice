@@ -1,14 +1,23 @@
 package arrays;
 
+import java.util.Scanner;
+
 public class SmallestElement {
     public static void main(String[] args) {
-        int a[]={10,20,30,40,50,4,8};
-        int min=a[0];
-        for (int i=1;i<a.length;i++){
-            if(min>a[i]){
-                min=a[i];
+        Scanner sc = new Scanner(System.in);
+        int array[]=new int[5];
+        for (int i=0;i< array.length;i++){
+            array[i]=sc.nextInt();
+        }
+        int min=array[0];
+        for (int i=0;i< array.length;i++){
+            if(array[0]>array[i]){
+                min=array[i];
             }
         }
-        System.out.println("minimum value of array element is "+min);
-    }
+        System.out.println("minimum value of array "+min);
+
+       }
+
+
 }
